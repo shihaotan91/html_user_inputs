@@ -20,48 +20,53 @@
     course or the Immersive Web Development course.
     </p>
 
-  <form>
-    <label for="city">City:</label>
-  <select name="cars">
-    <option value="">Hong Kong</option>
-    <option value="">London</option>
-    <option value="">Los Angeles</option>
-    <option value="">New York</option>
-    <option value="">Portland</option>
-    <option value="">San Francisco</option>
-    <option value="">Seattle</option>
-    <option value="">Singapore</option>
+  <form action="success.html" method="get">
+
+    <label for="city">City:
+  <select name="city">
+    <option value="HK">Hong Kong</option>
+    <option value="LD">London</option>
+    <option value="LA">Los Angeles</option>
+    <option value="NY">New York</option>
+    <option value="PL">Portland</option>
+    <option value="SF">San Francisco</option>
+    <option value="SEA">Seattle</option>
+    <option value="SG">Singapore</option>
   </select>
-</form>
+  </label>
+
 <br><br>
 
-<form>
-  <label for="course">Course:</label>
+  <label for="course">Course:
   <input type="radio" name="course" value=""> UX
   <input type="radio" name="course" value=""> Web Dev
+  </label>
+
+<br><br>
+
+  <label for="name">Name
+  <input type="text" name="name" value="">
+  </label>
+  <br><br>
+
+  <label for="email">Email
+  <input type="email" name="email" value="">
+  </label>
+  <br><br>
+
+  <label for="password">Password
+  <input type="password" name="password" value="">
+  </label>
+
 </form>
 
 <br>
 
-<form action="">
-  <label for="name">Name</label>
-  <input type="text" name="name" value="">
-  <br><br>
-
-  <label for="name">Email</label>
-  <input type="text" name="email" value="">
-  <br><br>
-
-  <label for="name">Password</label>
-  <input type="text" name="password" value="">
-
-</form><br>
-
-<form action="subscribe">
-<input type="checkbox" name="subscribe" value="subscribe">Yes, subscribe me to the General Assembly student newsletter<br>
+<form action="success.html">
+<input type="checkbox" name="subscribe" value="">Yes, subscribe me to the General Assembly student newsletter<br>
 <br>
 
-<input type="submit" value="Subscribe">
+<input type="submit" name="submit" value="Subscribe">
 </form>
 
 
